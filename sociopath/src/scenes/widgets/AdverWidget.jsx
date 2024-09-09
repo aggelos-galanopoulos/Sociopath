@@ -12,24 +12,23 @@ const AdvertWidget = () => {
     <WidgetWrapper>
       <FlexBetween>
         <Typography color={dark} variant="h5" fontWeight="500">
-          Sponsored
+          Paid by other
         </Typography>
-        <Typography color={medium}>Create Ad</Typography>
+        <Typography color={medium}>Got something</Typography>
       </FlexBetween>
       <img
         width="100%"
         height="auto"
         alt="advert"
-        src="http://localhost:3001/assets/info4.jpeg"
+        src="http://localhost:3001/assets/malkavian.jpeg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
-        <Typography color={main}>MikaCosmetics</Typography>
-        <Typography color={medium}>mikacosmetics.com</Typography>
+        <Typography color={main}>Theodore Kontos</Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
-        Your pathway to stunning and immaculate beauty and made sure your skin
-        is exfoliating skin and shining like light.
+        Your pathway to redemption and remediation 
+        is perilous and long. Seek guidance now!
       </Typography>
     </WidgetWrapper>
   );

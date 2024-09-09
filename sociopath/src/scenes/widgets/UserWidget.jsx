@@ -72,7 +72,7 @@ import {
               >
                 {firstName} {lastName}
               </Typography>
-              <Typography color={medium}>{friends.length} friends</Typography>
+              <Typography color={medium}>{friends.length} fellow wackos</Typography>
             </Box>
           </FlexBetween>
           <ManageAccountsOutlined />
@@ -97,13 +97,13 @@ import {
         {/* THIRD ROW */}
         <Box p="1rem 0">
           <FlexBetween mb="0.5rem">
-            <Typography color={medium}>Who's viewed your profile</Typography>
+            <Typography color={medium}>Your stalkers</Typography>
             <Typography color={main} fontWeight="500">
               {viewedProfile}
             </Typography>
           </FlexBetween>
           <FlexBetween>
-            <Typography color={medium}>Impressions of your post</Typography>
+            <Typography color={medium}>Affected by your posts</Typography>
             <Typography color={main} fontWeight="500">
               {impressions}
             </Typography>
@@ -115,7 +115,7 @@ import {
         {/* FOURTH ROW */}
         <Box p="1rem 0">
           <Typography fontSize="1rem" color={main} fontWeight="500" mb="1rem">
-            Social Profiles
+            Social Outlets
           </Typography>
   
           <FlexBetween gap="1rem" mb="0.5rem">
@@ -123,9 +123,9 @@ import {
               <img src="../assets/twitter.png" alt="twitter" />
               <Box>
                 <Typography color={main} fontWeight="500">
-                  Twitter
+                  X
                 </Typography>
-                <Typography color={medium}>Social Network</Typography>
+                <Typography color={medium}>ex-Birdie Network</Typography>
               </Box>
             </FlexBetween>
             <EditOutlined sx={{ color: main }} />
@@ -136,9 +136,9 @@ import {
               <img src="../assets/linkedin.png" alt="linkedin" />
               <Box>
                 <Typography color={main} fontWeight="500">
-                  Linkedin
+                  I need a job
                 </Typography>
-                <Typography color={medium}>Network Platform</Typography>
+                <Typography color={medium}>Look busy</Typography>
               </Box>
             </FlexBetween>
             <EditOutlined sx={{ color: main }} />

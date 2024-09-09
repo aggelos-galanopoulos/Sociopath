@@ -130,7 +130,7 @@ const Form = () => {
             {isRegister && (
               <>
                 <TextField
-                  label="First Name"
+                  label="Your little name Earthling"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.firstName}
@@ -142,7 +142,7 @@ const Form = () => {
                   sx={{ gridColumn: "span 2" }}
                 />
                 <TextField
-                  label="Last Name"
+                  label="and now the big one"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.lastName}
@@ -152,7 +152,7 @@ const Form = () => {
                   sx={{ gridColumn: "span 2" }}
                 />
                 <TextField
-                  label="Location"
+                  label="Your mental haven"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.location}
@@ -162,7 +162,7 @@ const Form = () => {
                   sx={{ gridColumn: "span 4" }}
                 />
                 <TextField
-                  label="Occupation"
+                  label="Passa tempo"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.occupation}
@@ -195,7 +195,7 @@ const Form = () => {
                       >
                         <input {...getInputProps()} />
                         {!values.picture ? (
-                          <p>Add Picture Here</p>
+                          <p>Glue your face</p>
                         ) : (
                           <FlexBetween>
                             <Typography>{values.picture.name}</Typography>
@@ -210,7 +210,7 @@ const Form = () => {
             )}
 
             <TextField
-              label="Email"
+              label="Cyber ID"
               onBlur={handleBlur}
               onChange={handleChange}
               value={values.email}
@@ -220,7 +220,7 @@ const Form = () => {
               sx={{ gridColumn: "span 4" }}
             />
             <TextField
-              label="Password"
+              label="Secret"
               type="password"
               onBlur={handleBlur}
               onChange={handleChange}
@@ -245,7 +245,7 @@ const Form = () => {
                 "&:hover": { color: palette.primary.main },
               }}
             >
-              {isLogin ? "LOGIN" : "REGISTER"}
+              {isLogin ? "Enter" : "Get a ticket to ride"}
             </Button>
             <Typography
               onClick={() => {
@@ -262,8 +262,8 @@ const Form = () => {
               }}
             >
               {isLogin
-                ? "Don't have an account? Sign Up here."
-                : "Already have an account? Login here."}
+                ? "You seem not to be part of this lunacy"
+                : "You are part of this lunacy"}
             </Typography>
           </Box>
         </form>

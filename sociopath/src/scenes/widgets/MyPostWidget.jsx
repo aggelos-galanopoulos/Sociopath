@@ -62,7 +62,7 @@ import {
         <FlexBetween gap="1.5rem">
           <UserImage image={picturePath} />
           <InputBase
-            placeholder="What's on your mind..."
+            placeholder="Let it out..."
             onChange={(e) => setPost(e.target.value)}
             value={post}
             sx={{
@@ -127,7 +127,7 @@ import {
               color={mediumMain}
               sx={{ "&:hover": { cursor: "pointer", color: medium } }}
             >
-              Image
+              Visual
             </Typography>
           </FlexBetween>
   
@@ -135,17 +135,17 @@ import {
             <>
               <FlexBetween gap="0.25rem">
                 <GifBoxOutlined sx={{ color: mediumMain }} />
-                <Typography color={mediumMain}>Clip</Typography>
+                <Typography color={mediumMain}>Wish</Typography>
               </FlexBetween>
   
               <FlexBetween gap="0.25rem">
                 <AttachFileOutlined sx={{ color: mediumMain }} />
-                <Typography color={mediumMain}>Attachment</Typography>
+                <Typography color={mediumMain}>Burden</Typography>
               </FlexBetween>
   
               <FlexBetween gap="0.25rem">
                 <MicOutlined sx={{ color: mediumMain }} />
-                <Typography color={mediumMain}>Audio</Typography>
+                <Typography color={mediumMain}>Oral</Typography>
               </FlexBetween>
             </>
           ) : (
@@ -163,7 +163,7 @@ import {
               borderRadius: "3rem",
             }}
           >
-            POST
+            FLY
           </Button>
         </FlexBetween>
       </WidgetWrapper>
